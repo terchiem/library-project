@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Javascript Library</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header>
+      <button class="form-open">+</button>
+      <h1>Javascript Library</h1>
+    </header>
+
+    <div class="overlay">
+      <div class="book-form">
+        <button class="form-close">x</button>
+        <div class="add-book">
+          <h3>Add a new book</h3>
+          <input type="text" name="title" placeholder="Title">
+          <input type="text" name="author" placeholder="Author">
+          <input type="number" min="0" name="pages" placeholder="# Pages">
+          <input type="checkbox" id="status" name="status">
+          <label for="status">I have read this book</label>
+          <button class="add-book-button">Add Book</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="library">
+    </div>
+
+    <footer>
+      <a href="https://github.com/terchiem/library-project/">https://github.com/terchiem/library-project/</a>
+    </footer>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
